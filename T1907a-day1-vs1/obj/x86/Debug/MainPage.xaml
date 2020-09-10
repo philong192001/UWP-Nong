@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="T1907a_day1_vs1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T1907a_day1_vs1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:ConnectionId='2'                     >
+        <TextBlock Text="Longne"></TextBlock>
+        <TextBlock x:ConnectionId='3' x:Name="tx1" FontSize="72"                   >
+            <Hyperlink x:ConnectionId='5'                                                                 NavigateUri="https://www.facebook.com/"  >Hoaneeeeekkk</Hyperlink>  
+            - <Bold><Underline>Test</Underline> </Bold> 
+            - <Bold><Italic>View</Italic></Bold>
+            - <Span FontFamily="Arial" FontSize="100" Foreground="Black">LL</Span>
+        </TextBlock>
+        <TextBlock x:ConnectionId='4' x:Name="tx2" VerticalAlignment="Bottom">
+            
+        </TextBlock>
+    </Grid>
+</Page>
+ 
+

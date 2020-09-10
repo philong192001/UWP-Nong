@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="Session2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Session2"
+    xmlns:models="using:Session2.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+       
+            <TextBox Margin="0,10,0,0" Grid.Row="0" x:Name="Email" Width="200" Height="40" PlaceholderText="Email" Text=""/>
+            <TextBox  Margin="0,10,0,0" Grid.Row="1" x:Name="Subject" Width="200" Height="40" PlaceholderText="Subject" Text=""/>
+            <TextBox  Margin="0,10,0,0" Grid.Row="2" x:Name="Desciption" Width="200" Height="90" PlaceholderText="Content" Text=""/>
+            <Button Margin="0,50,0,0" Grid.Row="3" Content="Submit" Width="50" Height="35" HorizontalAlignment="Center" Click="Button_Click"/>
+        </Grid>
+        <ListView x:Name="LV" Grid.Column="1">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:Mail">
+                    <ListViewItem>
+                        <ScrollViewer>
+                            <RelativePanel>
+                                <TextBlock  x:Name="TxtEmail" Text="{x:Bind Email}"/>
+                                <TextBlock RelativePanel.Below="TxtEmail" x:Name="TxtSub" Text="{x:Bind Subject}"/>
+                                <TextBlock x:Name="Txtdes" RelativePanel.Below="TxtSub" Text="{x:Bind Description}"/>
+                            </RelativePanel>
+                        </ScrollViewer>
+                    </ListViewItem>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

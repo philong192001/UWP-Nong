@@ -1,0 +1,53 @@
+﻿<Page
+    x:Class="Session2.Ass.Assignment1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Session2.Ass"
+    xmlns:models="using:Session2.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <RelativePanel Margin="10">
+                <TextBlock x:ConnectionId='8' x:Name="Email" Grid.Row="0" Text="Email :" Margin="0,10,20,10" />
+                <TextBox x:ConnectionId='9' x:Name="B_Email" RelativePanel.RightOf="Email" PlaceholderText="Enter Email" Margin="35,10,20,10"/>
+                <TextBlock x:ConnectionId='10' x:Name="Title" RelativePanel.Below="Email" Grid.Row="1" Text="Title" Margin="0,10,20,10"/>
+                <TextBox x:ConnectionId='11' x:Name="B_Title" RelativePanel.Below="B_Email" RelativePanel.RightOf="Title" PlaceholderText="Enter Title" Margin="50,10,20,10" RenderTransformOrigin="0.848,0.156"/>
+                <TextBlock x:ConnectionId='12' x:Name="Description"  RelativePanel.Below="Title" Grid.Row="2" Text="Description" Margin="0,10,20,10"/>
+                <TextBox x:ConnectionId='13' x:Name="B_Desciption" Grid.Row="2" RelativePanel.Below="B_Title" RelativePanel.RightOf="Description" PlaceholderText="Enter Description" Margin="0,10,20,10"/>
+                <Button x:ConnectionId='14' RelativePanel.Below="B_Desciption" HorizontalAlignment="Center" Content="Submit" Margin="90,20,0,20"                     ></Button>
+            </RelativePanel>
+        </Grid>
+        <ListView x:ConnectionId='2' x:Name="LV" Grid.Column="1">
+            <ListView.Header>
+                <TextBlock Text="Danh sach email" HorizontalTextAlignment="Center"/>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate                         >
+                    <ListViewItem x:ConnectionId='4'>
+                        <ScrollViewer>
+                            <RelativePanel>
+                                <TextBlock x:ConnectionId='5'  x:Name="TxtEmail"                      />
+                                <TextBlock x:ConnectionId='6' RelativePanel.Below="TxtEmail" x:Name="TxtSub"                       />
+                                <TextBlock x:ConnectionId='7' x:Name="Txtdes" RelativePanel.Below="TxtSub"                            />
+                            </RelativePanel>
+                        </ScrollViewer>
+                    </ListViewItem>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>
+
