@@ -30,13 +30,17 @@
     <AppXManifest Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-10T04:26:27.982</Modified>
+      <Modified>2020-09-13T08:38:11.032</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Session2.exe">
       <PackagePath>entrypoint\Session2.exe</PackagePath>
-      <Modified>2020-09-10T04:26:27.378</Modified>
+      <Modified>2020-09-13T08:38:10.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\fontawesome.uwp\4.7.0.9\lib\uap10.0\FontAwesome.UWP.dll">
+      <PackagePath>FontAwesome.UWP.dll</PackagePath>
+      <Modified>2017-01-05T14:15:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -45,6 +49,10 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\fontawesome.uwp\4.7.0.9\lib\uap10.0\FontAwesome.UWP\FontAwesome.otf">
+      <PackagePath>FontAwesome.UWP\FontAwesome.otf</PackagePath>
+      <Modified>2017-01-05T14:15:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -86,23 +94,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Session2.xr.xml">
       <PackagePath>Session2.xr.xml</PackagePath>
-      <Modified>2020-09-10T04:26:27.150</Modified>
+      <Modified>2020-09-13T08:38:10.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-10T04:25:41.180</Modified>
+      <Modified>2020-09-13T08:37:09.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass3-SplitView.xbf">
+      <PackagePath>Ass3-SplitView.xbf</PackagePath>
+      <Modified>2020-09-13T08:37:09.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Assignment1.xbf">
       <PackagePath>Ass\Assignment1.xbf</PackagePath>
-      <Modified>2020-09-10T04:26:27.164</Modified>
+      <Modified>2020-09-13T08:37:09.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Assignment2.xbf">
+      <PackagePath>Ass\Assignment2.xbf</PackagePath>
+      <Modified>2020-09-13T08:38:10.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-10T04:25:41.180</Modified>
+      <Modified>2020-09-13T08:37:09.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\ScrollViewer-Test.xbf">
       <PackagePath>ScrollViewer-Test.xbf</PackagePath>
-      <Modified>2020-09-10T04:25:41.180</Modified>
+      <Modified>2020-09-13T08:37:09.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,11 +126,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-10T04:13:54.621</Modified>
+      <Modified>2020-09-11T09:01:37.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Core\Session2.exe">
       <PackagePath>Session2.exe</PackagePath>
-      <Modified>2020-09-10T04:26:27.977</Modified>
+      <Modified>2020-09-13T08:38:11.028</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

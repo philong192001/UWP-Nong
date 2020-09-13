@@ -1,0 +1,77 @@
+﻿<Page
+    x:Class="Session2.Ass3_SplitView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Session2"
+    xmlns:models="using:Session2.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ 
+
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <SplitView x:ConnectionId='2' x:Name="SV" DisplayMode="CompactInline" HorizontalAlignment="Left"
+               IsPaneOpen="False" OpenPaneLength="250">
+        <SplitView.Pane>
+            <Grid>
+                <ListView x:ConnectionId='3'  x:Name="LV"                         >
+                    <ListView.Header>
+                        <AppBarButton x:ConnectionId='4' VerticalContentAlignment="Center" HorizontalContentAlignment="Center"                      Icon="List" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <FontIcon VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Segoe MDL2 Assets" Glyph="&#xE847;"/>
+                        </AppBarButton>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate                             >
+                            <ListViewItem x:ConnectionId='6'>
+                                <Grid>
+                                    <FontIcon x:ConnectionId='7' HorizontalAlignment="Left" FontFamily="Segoe MDL2 Assets"                      />
+                                    <TextBlock x:ConnectionId='8' VerticalAlignment="Center" Margin="45,0,0,0"                     />
+                                </Grid>
+                            </ListViewItem>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </SplitView.Pane>
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                
+                <TextBox x:ConnectionId='13' Grid.Row="0" x:Name="Name" PlaceholderText="Full Name" Margin="10"/>
+                <TextBox x:ConnectionId='14' Grid.Row="1" x:Name="Phone" PlaceholderText="Phone Number" Margin="10"/>
+                <ComboBox x:ConnectionId='15' Grid.Row="2" HorizontalAlignment="Center" x:Name="CbxContact" >
+                    <ComboBoxItem Content="Dev"/>
+                    <ComboBoxItem Content="BA"/>
+                    <ComboBoxItem Content="TT"/>
+                </ComboBox>
+                <Button x:ConnectionId='16' Grid.Row="3"                       Content="Submit" HorizontalAlignment="Center" Margin="10"/>
+            </Grid>
+            <ListView x:ConnectionId='9'                          Grid.Column="1" x:Name="LeVi">
+                <ListView.Header>
+                    <TextBlock Text="Danh Ba"/>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate                              >
+                        <ListViewItem x:ConnectionId='11'>
+                            <RelativePanel>
+                                <!--<TextBlock RelativePanel.RightOf="icName" Text="{x:Bind FullName  }"/>-->
+                                <TextBlock x:ConnectionId='12'                        />
+                                
+                            </RelativePanel>
+                        </ListViewItem>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>          
+        </Grid>
+    </SplitView>
+</Page>
+

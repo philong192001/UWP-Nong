@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="Session2.Ass.Assignment2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Session2.Ass"
+    xmlns:models="using:Session2.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:fa="using:FontAwesome.UWP"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <RelativePanel>
+                <!--<TextBlock Grid.Row="0"  x:Name="TxtName" Text="Full Name :" />
+                <TextBlock Grid.Row="1" RelativePanel.Below="TxtName" x:Name="TxtPhone"  Text="Phone Number :"/>
+                <TextBlock Grid.Row="2" RelativePanel.Below="TxtPhone" x:Name="TxtContact"  Text="Contact :"/>-->
+
+                <TextBox Grid.Row="0" x:Name="Name" PlaceholderText="Full Name" Margin="10" Width="300" />
+                <TextBox Grid.Row="1" x:Name="Phone"  RelativePanel.Below="Name" PlaceholderText="Phone Number" Margin="10"  Width="300"/>
+                <ComboBox Grid.Row="2" RelativePanel.Below="Phone" x:Name="cbTypeContact"  Margin="10" Width="300">
+                    <ComboBoxItem Content="DEV"></ComboBoxItem>
+                    <ComboBoxItem Content="BA" IsSelected="True"></ComboBoxItem>
+                    <ComboBoxItem Content="TESTER"></ComboBoxItem>
+                </ComboBox>
+                <Button Grid.Row="3" Click="Button_Click" Content="Submit" RelativePanel.Below="cbTypeContact" HorizontalAlignment="Center" Margin="10"/>
+            
+            </RelativePanel>
+        </Grid>
+        <ListView x:Name="LV" Grid.Column="1">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:Customer" >
+                    <ListViewItem>
+                        <RelativePanel>
+                            <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="{Binding Icon}" x:Name="FontIcon"/>
+                            <TextBlock Margin="10" x:Name="TBFullName" RelativePanel.RightOf="FontIcon" Text="{x:Bind Name  }"/>
+                            <TextBlock Margin="10" x:Name="TBPhone" RelativePanel.RightOf="TBFullName" Text="{x:Bind  Phone }"/>
+                            <Button Margin="10" Content="X" Height="40" Width="auto"  RelativePanel.RightOf="TBPhone" Click="delete" />
+                        </RelativePanel>
+                    </ListViewItem>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

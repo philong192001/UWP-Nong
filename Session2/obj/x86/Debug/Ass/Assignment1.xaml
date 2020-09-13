@@ -38,7 +38,7 @@
                 <DataTemplate                         >
                     <ListViewItem x:ConnectionId='4'>
                         <ScrollViewer>
-                            <RelativePanel>
+                            <RelativePanel HorizontalAlignment="Center">
                                 <TextBlock x:ConnectionId='5'  x:Name="TxtEmail"                      />
                                 <TextBlock x:ConnectionId='6' RelativePanel.Below="TxtEmail" x:Name="TxtSub"                       />
                                 <TextBlock x:ConnectionId='7' x:Name="Txtdes" RelativePanel.Below="TxtSub"                            />

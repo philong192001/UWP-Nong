@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.17763": {
+      "FontAwesome.UWP/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -309,6 +318,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
+      "FontAwesome.UWP/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -795,6 +813,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm-aot": {
+      "FontAwesome.UWP/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -1282,6 +1309,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
+      "FontAwesome.UWP/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -1769,6 +1805,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
+      "FontAwesome.UWP/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -2255,6 +2300,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64-aot": {
+      "FontAwesome.UWP/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -2742,6 +2796,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
+      "FontAwesome.UWP/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -3228,6 +3291,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86-aot": {
+      "FontAwesome.UWP/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/FontAwesome.UWP.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -3716,6 +3788,29 @@
     }
   },
   "libraries": {
+    "FontAwesome.UWP/4.7.0.9": {
+      "sha512": "olmdPM8jwCZ/bW8f34QgsVxCQ17PAqckcrBe3g7Z2nUHvyE/I8C4cU4NU5ieu1XEWd7wKbOfQ92T3b4N6x9+FA==",
+      "type": "package",
+      "path": "fontawesome.uwp/4.7.0.9",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontawesome.uwp.4.7.0.9.nupkg.sha512",
+        "fontawesome.uwp.nuspec",
+        "lib/net35/FontAwesome.WPF.dll",
+        "lib/net35/FontAwesome.WPF.xml",
+        "lib/net40/FontAwesome.WPF.dll",
+        "lib/net40/FontAwesome.WPF.xml",
+        "lib/uap10.0/FontAwesome.UWP.XML",
+        "lib/uap10.0/FontAwesome.UWP.dll",
+        "lib/uap10.0/FontAwesome.UWP.pri",
+        "lib/uap10.0/FontAwesome.UWP/FontAwesome.otf",
+        "lib/wp81/FontAwesome.WIN81.dll",
+        "lib/wp81/FontAwesome.WIN81.xml",
+        "tools/install.ps1"
+      ]
+    },
     "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
       "sha512": "JmPpJFTBZz+IW2iMf9C2uSBEJouDt3zaeqURRFah3gJ0xEMd/Gd3iu3HQYwfTsbx/f+C8n8pTAqiXPMpIci/iw==",
       "type": "package",
@@ -8147,6 +8242,7 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
+      "FontAwesome.UWP >= 4.7.0.9",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10"
     ]
   },
@@ -8190,6 +8286,10 @@
     "frameworks": {
       "uap10.0.17763": {
         "dependencies": {
+          "FontAwesome.UWP": {
+            "target": "Package",
+            "version": "[4.7.0.9, )"
+          },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.10, )"

@@ -119,14 +119,22 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Ass3-SplitView.xaml.cs">
+      <DependentUpon>Ass3-SplitView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Ass\Assignment1.xaml.cs">
       <DependentUpon>Assignment1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ass\Assignment2.xaml.cs">
+      <DependentUpon>Assignment2.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\Ass1.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Mail.cs" />
+    <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScrollViewer-Test.xaml.cs">
       <DependentUpon>ScrollViewer-Test.xaml</DependentUpon>
@@ -152,7 +160,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Ass3-SplitView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Ass\Assignment1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ass\Assignment2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -166,6 +182,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FontAwesome.UWP">
+      <Version>4.7.0.9</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.10</Version>
     </PackageReference>
