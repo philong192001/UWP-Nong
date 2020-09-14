@@ -76,6 +76,9 @@
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\AddContact.xbf">
+      <PackagePath>AddContact.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass3-SplitView.xbf">
       <PackagePath>Ass3-SplitView.xbf</PackagePath>
     </AppxPackagedFile>
@@ -84,6 +87,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Assignment2.xbf">
       <PackagePath>Ass\Assignment2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\ContactList.xbf">
+      <PackagePath>ContactList.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>

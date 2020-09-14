@@ -66,3 +66,13 @@ D:\C# ApTech\T1907a\Session2\obj\x86\Debug\Ass3-SplitView.g.i.cs
 D:\C# ApTech\T1907a\Session2\obj\x86\Debug\Ass3-SplitView.g.cs
 D:\C# ApTech\T1907a\Session2\obj\x86\Debug\Ass3-SplitView.xaml
 D:\C# ApTech\T1907a\Session2\obj\x86\Debug\Ass3-SplitView.xbf
+D:\C# ApTech\T1907a\Session2\obj\x86\Debug\AddContact.g.i.cs
+D:\C# ApTech\T1907a\Session2\obj\x86\Debug\AddContact.g.cs
+D:\C# ApTech\T1907a\Session2\obj\x86\Debug\ContactList.g.i.cs
+D:\C# ApTech\T1907a\Session2\obj\x86\Debug\ContactList.g.cs
+D:\C# ApTech\T1907a\Session2\obj\x86\Debug\AddContact.xaml
+D:\C# ApTech\T1907a\Session2\obj\x86\Debug\ContactList.xaml
+D:\C# ApTech\T1907a\Session2\obj\x86\Debug\AddContact.xbf
+D:\C# ApTech\T1907a\Session2\obj\x86\Debug\ContactList.xbf
+D:\C# ApTech\T1907a\Session2\bin\x86\Debug\AddContact.xbf
+D:\C# ApTech\T1907a\Session2\bin\x86\Debug\ContactList.xbf

@@ -46,7 +46,7 @@
                             <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="{Binding Icon}" x:Name="FontIcon"/>
                             <TextBlock x:ConnectionId='6' Margin="10" x:Name="TBFullName" RelativePanel.RightOf="FontIcon"                       />
                             <TextBlock x:ConnectionId='7' Margin="10" x:Name="TBPhone" RelativePanel.RightOf="TBFullName"                        />
-                            <Button x:ConnectionId='8' Content="X" Height="40" Width="auto"  RelativePanel.RightOf="TBPhone"                />
+                            <Button x:ConnectionId='8' Margin="10" Content="X" Height="40" Width="auto"  RelativePanel.RightOf="TBPhone"                />
                         </RelativePanel>
                     </ListViewItem>
                 </DataTemplate>

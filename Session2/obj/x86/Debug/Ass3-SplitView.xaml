@@ -22,7 +22,7 @@
                     </ListView.Header>
                     <ListView.ItemTemplate>
                         <DataTemplate                             >
-                            <ListViewItem x:ConnectionId='6'>
+                            <ListViewItem x:ConnectionId='6'                             >
                                 <Grid>
                                     <FontIcon x:ConnectionId='7' HorizontalAlignment="Left" FontFamily="Segoe MDL2 Assets"                      />
                                     <TextBlock x:ConnectionId='8' VerticalAlignment="Center" Margin="45,0,0,0"                     />
@@ -33,45 +33,9 @@
                 </ListView>
             </Grid>
         </SplitView.Pane>
-        <Grid Margin="10">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="auto" />
-                    <RowDefinition Height="auto" />
-                    <RowDefinition Height="auto" />
-                    <RowDefinition Height="auto" />
-                </Grid.RowDefinitions>
-                
-                <TextBox x:ConnectionId='13' Grid.Row="0" x:Name="Name" PlaceholderText="Full Name" Margin="10"/>
-                <TextBox x:ConnectionId='14' Grid.Row="1" x:Name="Phone" PlaceholderText="Phone Number" Margin="10"/>
-                <ComboBox x:ConnectionId='15' Grid.Row="2" HorizontalAlignment="Center" x:Name="CbxContact" >
-                    <ComboBoxItem Content="Dev"/>
-                    <ComboBoxItem Content="BA"/>
-                    <ComboBoxItem Content="TT"/>
-                </ComboBox>
-                <Button x:ConnectionId='16' Grid.Row="3"                       Content="Submit" HorizontalAlignment="Center" Margin="10"/>
-            </Grid>
-            <ListView x:ConnectionId='9'                          Grid.Column="1" x:Name="LeVi">
-                <ListView.Header>
-                    <TextBlock Text="Danh Ba"/>
-                </ListView.Header>
-                <ListView.ItemTemplate>
-                    <DataTemplate                              >
-                        <ListViewItem x:ConnectionId='11'>
-                            <RelativePanel>
-                                <!--<TextBlock RelativePanel.RightOf="icName" Text="{x:Bind FullName  }"/>-->
-                                <TextBlock x:ConnectionId='12'                        />
-                                
-                            </RelativePanel>
-                        </ListViewItem>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>          
-        </Grid>
+        <ScrollViewer x:ConnectionId='9' Margin="10"                             >
+            <Frame x:ConnectionId='10' x:Name="FrContent" Margin="10"/>
+        </ScrollViewer>
     </SplitView>
 </Page>
 
