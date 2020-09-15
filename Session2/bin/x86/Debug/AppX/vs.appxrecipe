@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-14T08:29:36.430</Modified>
+      <Modified>2020-09-15T15:52:08.081</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Session2.exe">
       <PackagePath>entrypoint\Session2.exe</PackagePath>
-      <Modified>2020-09-14T08:29:35.733</Modified>
+      <Modified>2020-09-15T15:52:06.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\fontawesome.uwp\4.7.0.9\lib\uap10.0\FontAwesome.UWP.dll">
       <PackagePath>FontAwesome.UWP.dll</PackagePath>
@@ -94,39 +94,71 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Session2.xr.xml">
       <PackagePath>Session2.xr.xml</PackagePath>
-      <Modified>2020-09-14T08:29:35.474</Modified>
+      <Modified>2020-09-15T03:59:07.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-14T08:29:35.490</Modified>
+      <Modified>2020-09-15T15:52:06.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\AddContact.xbf">
       <PackagePath>AddContact.xbf</PackagePath>
-      <Modified>2020-09-14T08:29:35.490</Modified>
+      <Modified>2020-09-15T15:52:06.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass3-SplitView.xbf">
       <PackagePath>Ass3-SplitView.xbf</PackagePath>
-      <Modified>2020-09-14T08:29:35.490</Modified>
+      <Modified>2020-09-15T15:52:06.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\AddContact.xbf">
+      <PackagePath>Ass\Ass3\AddContact.xbf</PackagePath>
+      <Modified>2020-09-15T15:52:06.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\AddCustomer.xbf">
+      <PackagePath>Ass\Ass3\AddCustomer.xbf</PackagePath>
+      <Modified>2020-09-15T15:52:06.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\AddMail.xbf">
+      <PackagePath>Ass\Ass3\AddMail.xbf</PackagePath>
+      <Modified>2020-09-15T15:52:06.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\Assignment3.xbf">
+      <PackagePath>Ass\Ass3\Assignment3.xbf</PackagePath>
+      <Modified>2020-09-15T15:52:06.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\ContactList.xbf">
+      <PackagePath>Ass\Ass3\ContactList.xbf</PackagePath>
+      <Modified>2020-09-15T15:52:06.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\CustomerList.xbf">
+      <PackagePath>Ass\Ass3\CustomerList.xbf</PackagePath>
+      <Modified>2020-09-15T15:52:06.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\Home.xbf">
+      <PackagePath>Ass\Ass3\Home.xbf</PackagePath>
+      <Modified>2020-09-15T15:52:06.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\MailList.xbf">
+      <PackagePath>Ass\Ass3\MailList.xbf</PackagePath>
+      <Modified>2020-09-15T15:52:06.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Assignment1.xbf">
       <PackagePath>Ass\Assignment1.xbf</PackagePath>
-      <Modified>2020-09-14T08:29:35.490</Modified>
+      <Modified>2020-09-15T15:52:06.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Assignment2.xbf">
       <PackagePath>Ass\Assignment2.xbf</PackagePath>
-      <Modified>2020-09-14T08:29:35.490</Modified>
+      <Modified>2020-09-15T15:52:06.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\ContactList.xbf">
       <PackagePath>ContactList.xbf</PackagePath>
-      <Modified>2020-09-14T08:29:35.490</Modified>
+      <Modified>2020-09-15T15:52:06.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-14T08:29:35.490</Modified>
+      <Modified>2020-09-15T15:52:06.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\ScrollViewer-Test.xbf">
       <PackagePath>ScrollViewer-Test.xbf</PackagePath>
-      <Modified>2020-09-14T08:29:35.490</Modified>
+      <Modified>2020-09-15T15:52:06.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -134,11 +166,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-14T07:55:44.203</Modified>
+      <Modified>2020-09-15T03:31:58.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Core\Session2.exe">
       <PackagePath>Session2.exe</PackagePath>
-      <Modified>2020-09-14T08:29:36.426</Modified>
+      <Modified>2020-09-15T15:52:08.069</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

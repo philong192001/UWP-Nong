@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Session2.Ass.Ass3.ContactList"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Session2.Ass.Ass3"
+    xmlns:models="using:Session2.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <GridView x:ConnectionId='2' x:Name="GV">
+            <GridView.Header>
+                <Button x:ConnectionId='3' Content="Add Contact" Width="100" Height="40" Margin="0,20,0,0" RelativePanel.Below="TxtBlock"                     />
+            </GridView.Header>
+            <GridView.ItemTemplate>
+                <DataTemplate                         >
+                    <Grid x:ConnectionId='5'>
+                        <RelativePanel>
+                            <TextBlock x:Name="EmailUser" Text="Email :"/>
+                            <TextBlock x:ConnectionId='7' Width="200" x:Name="TbEmail" RelativePanel.RightOf="EmailUser"                      />
+                            <TextBlock x:Name="SubjectUser" RelativePanel.Below="TbEmail" Text="Subject :"/>
+                            <TextBlock x:ConnectionId='9' Width="auto" RelativePanel.Below="TbEmail" RelativePanel.RightOf="SubjectUser"                        />
+                        </RelativePanel>
+                    </Grid>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+    </Grid>
+</Page>
+

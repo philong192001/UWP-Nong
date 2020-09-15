@@ -82,6 +82,30 @@
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass3-SplitView.xbf">
       <PackagePath>Ass3-SplitView.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\AddContact.xbf">
+      <PackagePath>Ass\Ass3\AddContact.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\AddCustomer.xbf">
+      <PackagePath>Ass\Ass3\AddCustomer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\AddMail.xbf">
+      <PackagePath>Ass\Ass3\AddMail.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\Assignment3.xbf">
+      <PackagePath>Ass\Ass3\Assignment3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\ContactList.xbf">
+      <PackagePath>Ass\Ass3\ContactList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\CustomerList.xbf">
+      <PackagePath>Ass\Ass3\CustomerList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\Home.xbf">
+      <PackagePath>Ass\Ass3\Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Ass3\MailList.xbf">
+      <PackagePath>Ass\Ass3\MailList.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Session2\bin\x86\Debug\Ass\Assignment1.xbf">
       <PackagePath>Ass\Assignment1.xbf</PackagePath>
     </AppxPackagedFile>

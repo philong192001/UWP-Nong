@@ -85,6 +85,8 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Text" />
+      <RootProperty Name="Inlines" />
+      <RootProperty Name="Width" />
       <RootProperty Name="HorizontalTextAlignment" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
@@ -97,6 +99,18 @@
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Session2.Ass3_SplitView" />
+    <RootType FullName="Session2.Ass.Ass3.AddContact" />
+    <RootType FullName="Session2.Ass.Ass3.AddCustomer" />
+    <RootType FullName="Session2.Ass.Ass3.AddMail" />
+    <RootType FullName="Session2.Ass.Ass3.Assignment3" />
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="Header" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Session2.Ass.Ass3.ContactList" />
+    <RootType FullName="Session2.Ass.Ass3.CustomerList" />
+    <RootType FullName="Session2.Ass.Ass3.Home" />
+    <RootType FullName="Session2.Ass.Ass3.MailList" />
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
@@ -115,10 +129,6 @@
       <RootProperty Name="IsSelected" />
     </RootType>
     <RootType FullName="Session2.Ass.Assignment2" />
-    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
-      <RootProperty Name="Header" />
-      <RootProperty Name="ItemTemplate" />
-    </RootType>
     <RootType FullName="Session2.ContactList" />
     <RootType FullName="Session2.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">

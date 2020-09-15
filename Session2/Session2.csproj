@@ -125,6 +125,30 @@
     <Compile Include="Ass3-SplitView.xaml.cs">
       <DependentUpon>Ass3-SplitView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Ass\Ass3\AddContact.xaml.cs">
+      <DependentUpon>AddContact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ass\Ass3\AddCustomer.xaml.cs">
+      <DependentUpon>AddCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ass\Ass3\AddMail.xaml.cs">
+      <DependentUpon>AddMail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ass\Ass3\Assignment3.xaml.cs">
+      <DependentUpon>Assignment3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ass\Ass3\ContactList.xaml.cs">
+      <DependentUpon>ContactList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ass\Ass3\CustomerList.xaml.cs">
+      <DependentUpon>CustomerList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ass\Ass3\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ass\Ass3\MailList.xaml.cs">
+      <DependentUpon>MailList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Ass\Assignment1.xaml.cs">
       <DependentUpon>Assignment1.xaml</DependentUpon>
     </Compile>
@@ -172,6 +196,38 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Ass3-SplitView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ass\Ass3\AddContact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ass\Ass3\AddCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ass\Ass3\AddMail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ass\Ass3\Assignment3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ass\Ass3\ContactList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ass\Ass3\CustomerList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ass\Ass3\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ass\Ass3\MailList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
