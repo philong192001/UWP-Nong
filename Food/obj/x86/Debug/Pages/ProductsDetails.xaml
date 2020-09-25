@@ -1,0 +1,39 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Food.Pages.ProductsDetails"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Food.Pages"
+    xmlns:models="using:Food.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#fff">
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <CommandBar x:ConnectionId='2' x:Name="CmBar" Width="40" HorizontalAlignment="Left" >
+            <CommandBar.Content>
+                <Button x:ConnectionId='10' x:Name="ButtonBack123"                             Style="{StaticResource NavigationBackButtonNormalStyle}" />
+            </CommandBar.Content>
+        </CommandBar>
+        <Image x:ConnectionId='3' Grid.Column="0" Width="200"                               />
+        <RelativePanel Grid.Column="1" Margin="50,100,100,0">
+            <TextBlock x:ConnectionId='4' RelativePanel.AlignTopWithPanel="True" Margin="0,10,0,0" FontSize="25"                              x:Name="PPrice"/>
+            <TextBlock x:ConnectionId='5' RelativePanel.Below="PPrice" Margin="0,10,0,0" FontSize="18"                             x:Name="PName"/>
+            <TextBlock x:ConnectionId='6' RelativePanel.Below="PName" Margin="0,10,0,0" FontSize="14"                                    x:Name="PDesc"/>
+            <Grid RelativePanel.Below="PDesc" Margin="0,10,0,0">
+                <RelativePanel>
+                    <FontIcon x:ConnectionId='7' x:Name="BtnOrder" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE7BF;"                          />
+                    <FontIcon x:ConnectionId='8' x:Name="BtnLike" Margin="120,0,0,0" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE76E;"                        />
+                    <TextBox x:ConnectionId='9' x:Name="Qty"                                              Width="200" Height="32" FontSize="16" Margin="0,100,0,0" RelativePanel.Below="BtnOrder" Text="1" InputScope="Number"                                                      />
+                </RelativePanel>
+                
+            </Grid>
+        </RelativePanel>
+    </Grid>
+</Page>
+

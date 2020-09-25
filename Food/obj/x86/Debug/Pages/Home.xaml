@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="Food.Pages.Home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Food.Pages"
+    xmlns:model="using:Food.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#f0f0f0">
+    <RelativePanel>
+        <CommandBar x:ConnectionId='2'  Width="230" HorizontalAlignment="Right" x:Name="CmBar" Background="White" Margin="20,20,0,20" >
+            <CommandBar.Content>
+                <TextBox x:ConnectionId='10' Width="200" BorderBrush="red" BorderThickness="1" x:Name="tbSearch"  PlaceholderText="Tim kiem" 
+                                                             HorizontalAlignment="Center" />
+            </CommandBar.Content>
+        </CommandBar>
+        <ComboBox x:ConnectionId='3' PlaceholderText="Filter" Width="200" RelativePanel.RightOf="CmBar" Margin="0,20,0,0" HorizontalAlignment="Right"                                             >
+            <x:String>SortByName</x:String>
+            <x:String>SortByPrice</x:String>
+        </ComboBox>
+        <Grid RelativePanel.Below="CmBar">
+            <GridView x:ConnectionId='4' x:Name="ProductList"                            >
+                <GridView.ItemTemplate>
+                    <DataTemplate                        >
+                        <GridViewItem x:ConnectionId='6' Width="400" Height="350" Margin="20,20,10,0" Background="#fff">
+                            <RelativePanel>
+                                <Image x:ConnectionId='7' x:Name="PImage" Width="300"                         />
+                                <TextBlock x:ConnectionId='8' Margin="20,20,10,10" RelativePanel.Below="PImage" x:Name="PName"  TextWrapping="Wrap"                      FontWeight="Bold" FontSize="20" />
+                                <TextBlock x:ConnectionId='9' Margin="20,0,0,0" x:Name="Pprice" RelativePanel.Below="PName" Foreground="Red"                      />
+                                <Button Content="Order" RelativePanel.Below="PName" RelativePanel.RightOf="Pprice" Margin="200,0,0,0" Background="Orange" />
+                            </RelativePanel>
+                        </GridViewItem>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+        </Grid>
+    </RelativePanel>
+  
+</Page>
+
