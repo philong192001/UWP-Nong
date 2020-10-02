@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-25T04:44:16.443</Modified>
+      <Modified>2020-09-30T08:09:32.131</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\Food.exe">
       <PackagePath>entrypoint\Food.exe</PackagePath>
-      <Modified>2020-09-25T04:44:15.126</Modified>
+      <Modified>2020-09-30T08:09:31.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -110,35 +110,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\Food.xr.xml">
       <PackagePath>Food.xr.xml</PackagePath>
-      <Modified>2020-09-25T04:44:14.792</Modified>
+      <Modified>2020-09-30T08:07:53.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-25T04:44:14.829</Modified>
+      <Modified>2020-09-30T08:09:31.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\DemoFile.xbf">
+      <PackagePath>DemoFile.xbf</PackagePath>
+      <Modified>2020-09-30T08:09:31.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-25T04:44:14.829</Modified>
+      <Modified>2020-09-30T08:09:31.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\Pages\CartList.xbf">
       <PackagePath>Pages\CartList.xbf</PackagePath>
-      <Modified>2020-09-25T04:44:14.829</Modified>
+      <Modified>2020-09-30T08:09:31.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\Pages\Category.xbf">
       <PackagePath>Pages\Category.xbf</PackagePath>
-      <Modified>2020-09-25T04:44:14.829</Modified>
+      <Modified>2020-09-30T08:09:31.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\Pages\ProductsDetails.xbf">
       <PackagePath>Pages\ProductsDetails.xbf</PackagePath>
-      <Modified>2020-09-25T04:44:14.829</Modified>
+      <Modified>2020-09-30T08:09:31.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2020-09-25T04:44:14.830</Modified>
+      <Modified>2020-09-30T08:09:31.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\Pages\ListFavorite.xbf">
       <PackagePath>Pages\ListFavorite.xbf</PackagePath>
-      <Modified>2020-09-25T04:44:14.830</Modified>
+      <Modified>2020-09-30T08:09:31.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -146,11 +150,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-23T08:29:10.836</Modified>
+      <Modified>2020-09-30T07:43:53.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\Core\Food.exe">
       <PackagePath>Food.exe</PackagePath>
-      <Modified>2020-09-25T04:44:16.432</Modified>
+      <Modified>2020-09-30T08:09:32.126</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

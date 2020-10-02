@@ -88,6 +88,9 @@
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\DemoFile.xbf">
+      <PackagePath>DemoFile.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C# ApTech\T1907a\Food\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>

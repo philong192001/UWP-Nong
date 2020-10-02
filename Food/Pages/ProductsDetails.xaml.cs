@@ -27,7 +27,7 @@ namespace Food.Pages
     /// </summary>
     public sealed partial class ProductsDetails : Page
     {
-        private DetailsService _Service = new DetailsService(); // goi sai service rôi
+        private DetailsService _Service = new DetailsService();
         public ProductsDetails()
         {
             this.InitializeComponent();

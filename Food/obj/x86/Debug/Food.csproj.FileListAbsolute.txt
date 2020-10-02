@@ -76,3 +76,8 @@ D:\C# ApTech\T1907a\Food\obj\x86\Debug\Pages\CartList.g.cs
 D:\C# ApTech\T1907a\Food\obj\x86\Debug\Pages\CartList.xaml
 D:\C# ApTech\T1907a\Food\obj\x86\Debug\Pages\CartList.xbf
 D:\C# ApTech\T1907a\Food\bin\x86\Debug\Pages\CartList.xbf
+D:\C# ApTech\T1907a\Food\bin\x86\Debug\DemoFile.xbf
+D:\C# ApTech\T1907a\Food\obj\x86\Debug\DemoFile.g.i.cs
+D:\C# ApTech\T1907a\Food\obj\x86\Debug\DemoFile.g.cs
+D:\C# ApTech\T1907a\Food\obj\x86\Debug\DemoFile.xaml
+D:\C# ApTech\T1907a\Food\obj\x86\Debug\DemoFile.xbf

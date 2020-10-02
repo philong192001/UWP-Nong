@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Food.DemoFile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Food"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="WriteFile" Click="Button_Click" Margin="178,155,0,0" VerticalAlignment="Top"/>
+        <Button Content="ReadFile" Click="Button_Click_1" Margin="408,160,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TxtBlock" HorizontalAlignment="Left" Margin="182,290,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="182" Width="565"/>
+        <Button Content="Save as" Click="Button_Click_2" Margin="163,632,0,0" VerticalAlignment="Top"/>
+        <Button Content="Clear" Click="Button_Click_3"/>
+    </Grid>
+</Page>
